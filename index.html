@@ -4,14 +4,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
     <title>naomieow | Homepage</title>
 </head>
+
 <body>
     <div class="navbar">
         <h1>naomieow</h1>
         <div class="navbuttons">
-            <a href="#about"><h2>About</h2></a>
-            <a href="#projects"><h2>Projects</h2></a>
+            <a class="navbutton" href="#about">
+                <img class="navlogo" src="assets/about-svgrepo-com.svg" alt=""/>
+                <h2>About</h2>
+            </a>
+            <a class="navbutton" href="#projects">
+                <img class="navlogo" src="assets/projects-svgrepo-com.svg" alt=""/>
+                <h2>Projects</h2>
+            </a>
         </div>
     </div>
     <div class="mainContainer">
@@ -21,50 +29,9 @@
         </div>
 
         <h1 id="projects" class="sectionTitle">Projects</h1>
-        <div class="projectContainer">
-            <a class="project" href="/">
-                <img src="projects/comingsoon.jpg" width="128" height="128">
-                <div>
-                    <h3>ExtraDND</h3>
-                    <p>A work-in-progress Dungeons and Dragons character creator and tracker.</p>
-                </div>
-            </a>
-            <a class="project" href="https://modrinth.com/datapack/rpgtitles">
-                <img src="projects/rpgtitles/icon.webp" width="128" height="128">
-                <div>
-                    <h3>RPGTitles</h3>
-                    <p>Small, cosmetic datapack that adds titles to many things in the game!</p>
-                </div>
-            </a>
-            <a class="project" href="https://modrinth.com/datapack/get-pricked">
-                <img src="projects/get-pricked/icon.webp" width="128" height="128">
-                <div>
-                    <h3>Get Pricked!</h3>
-                    <p>Ever thought a block should damage you when it doesn't? Well, now it does!</p>
-                </div>
-            </a>
-            <a class="project" href="https://modrinth.com/datapack/rpgtitles">
-                <img src="projects/comingsoon.jpg" width="128" height="128">
-                <div>
-                    <h3>🚧 Voidborn</h3>
-                    <p>Coming soon!</p>
-                </div>
-            </a>
-            <a class="project" href="/">
-                <img src="projects/comingsoon.jpg" width="128" height="128">
-                <div>
-                    <h3>🚧 DevTools</h3>
-                    <p>Fabric mod to help create datapacks more efficiently!</p>
-                </div>
-            </a>
-            <a class="project" href="https://modrinth.com/mod/mystcraft-ages">
-                <img src="projects/comingsoon.jpg" width="128" height="128">
-                <div>
-                    <h3>🚧 Mystcraft: Ages</h3>
-                    <p>A Fabric rewrite of the original Mystcraft mod!</p>
-                </div>
-            </a>
+        <div class="projectContainer" id="projectContainer">
         </div>  
     </div>
 </body>
 </html>
+
