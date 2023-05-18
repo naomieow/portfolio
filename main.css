@@ -74,11 +74,17 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: var(--main-color);
 }
 
+.aboutContainer {
+    width: 85%;
+    margin: auto;
+}
+
 .projectContainer {
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5em;
-    width: 100%;
+    width: 85%;
+    margin: auto;
 }
 
 .project {
@@ -101,12 +107,10 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media only screen and (max-width: 1188px) {
+@media only screen and (max-width: 1250px) {
     .projectContainer {
-        display: inline-grid;
         grid-template-columns: 1fr 1fr;
         gap: 1.5em;
-        width: 100%;
     }
 
     .mainContainer {
@@ -120,10 +124,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (max-width: 712px) {
     .projectContainer {
-        display: inline-grid;
         grid-template-columns: 1fr;
         gap: 1.5em;
-        width: 100%;
     }
 
     .mainContainer {
