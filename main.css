@@ -78,6 +78,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .aboutContainer {
     width: 85%;
     margin: auto;
+    display: flex;
 }
 
 .projectContainer {
@@ -134,6 +135,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
     .navbar {
         width: 90vw;
+    }
+
+    .aboutContainer {
+        flex-direction: column;
     }
 }
 
