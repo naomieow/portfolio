@@ -1,15 +1,15 @@
 const projects = [
     {
-        "name": "Get Pricked!",
-        "description": "Ever thought a block should damage you when it doesn't? Well, now it does!",
-        "projectpage": "https://modrinth.com/datapack/get-pricked",
-        "icon": "get-pricked/icon.webp"
-    },
-    {
         "name": "RPGTitles",
         "description": "Small, cosmetic datapack that adds titles to small things in the game!",
         "projectpage": "https://modrinth.com/datapack/rpgtitles",
         "icon": "rpgtitles/icon.webp"
+    },
+    {
+        "name": "Get Pricked!",
+        "description": "Ever thought a block should damage you when it doesn't? Well, now it does!",
+        "projectpage": "https://modrinth.com/datapack/get-pricked",
+        "icon": "get-pricked/icon.webp"
     },
     {
         "name": "🚧 Voidborn",
